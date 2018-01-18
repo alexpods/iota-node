@@ -1,6 +1,6 @@
 {
   "name": "iota-node",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "IOTA Full Node",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
