@@ -1,0 +1,30 @@
+{
+  "name": "iota-node",
+  "version": "0.0.0",
+  "description": "IOTA Full Node",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc --project tsconfig.json",
+    "test": "echo 'It works!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpods/iota-node.git"
+  },
+  "keywords": [
+    "iota",
+    "node",
+    "fullnode"
+  ],
+  "author": "alexpods <alexey.podskrebyshev@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alexpods/iota-node/issues"
+  },
+  "homepage": "https://github.com/alexpods/iota-node#readme",
+  "dependencies": {
+    "typescript": "^2.6.2"
+  }
+}
